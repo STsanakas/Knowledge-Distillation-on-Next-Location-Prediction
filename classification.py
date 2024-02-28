@@ -9,7 +9,6 @@ from sklearn.model_selection import train_test_split
 from tabulate import tabulate
 from tflite_utilities import tflite_evaluate, tflite_class_evaluate, tflite_converter
 from geolife_data_utilities import get_data_path, get_geolife_path
-# from hypertuning import genetic
 
 def transportation_classifier(undersampling=False, train_new=False):
 
@@ -122,4 +121,4 @@ def transportation_classifier(undersampling=False, train_new=False):
     # tflite_class_evaluate(get_geolife_path()+'Geolife_models/tf_lite/class_model.tflite', testX, testY)
     tflite_class_evaluate(get_geolife_path()+'Geolife_models/tf_lite/class_model.tflite', testX, testY)
 
-transportation_classifier(True, False)
+# transportation_classifier(True, False)
