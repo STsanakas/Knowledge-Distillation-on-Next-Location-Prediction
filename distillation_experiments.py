@@ -142,4 +142,4 @@ def run_experiments(filename, teacher_model_name):
     print(results)
     print(sizes)
 
-# run_experiments('experiment_outputs', 'Unlabeled')
+run_experiments('experiment_outputs', 'Unlabeled')

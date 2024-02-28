@@ -117,9 +117,9 @@ def transportation_classifier(undersampling=False, train_new=False):
         print(tabulate(traintestdistribution, headers=rows, showindex=datasets))
         print()
         print(tabulate(predictions, headers=cols, showindex=rows))
-        tflite_error = tflite_evaluate(tflite_converter(model, get_geolife_path()+'Geolife_models/tf_lite/genetic_classification.tflite'), testX, testY)        
+        tflite_error = tflite_evaluate(tflite_converter(model, get_geolife_path()+'Geolife_models/tf_lite/class_model.tflite'), testX, testY)        
 
     # tflite_class_evaluate(get_geolife_path()+'Geolife_models/tf_lite/class_model.tflite', testX, testY)
-    tflite_class_evaluate(get_geolife_path()+'Geolife_models/tf_lite/genetic_classification.tflite', testX, testY)
+    tflite_class_evaluate(get_geolife_path()+'Geolife_models/tf_lite/class_model.tflite', testX, testY)
 
 transportation_classifier(True, False)

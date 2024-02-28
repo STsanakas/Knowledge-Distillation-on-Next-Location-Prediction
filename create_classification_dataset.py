@@ -3,7 +3,7 @@ from geolife_data_utilities import get_geolife_path
 import os
 import numpy as np
 
-thepath = get_geolife_path()+'Geolife_Trajectories/'
+# thepath = get_geolife_path()+'Geolife_Trajectories/'
 
 output={}
 output["bike"]  =np.array([[1,0,0,0,0,0,0]])
