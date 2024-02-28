@@ -1,0 +1,10 @@
+numpy
+pandas
+tabulate
+tqdm
+scikit-learn
+tensorflow[and-cuda]
+tflite
+keras
+matplotlib
+PyQt5
