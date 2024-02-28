@@ -1,6 +1,6 @@
 # Knowledge-Distillation-on-Next-Location-Prediction
 
-Installation
+Installation/Usage
 
  - In your virtual environment run ```pip install -r requirements.txt```
  - Assumes the following structure
